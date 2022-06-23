@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+
+*{
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+	padding: 0;
+	margin:0; 
+}
+html{
+	font-size: 62.5%
+}
+
+.header{
+	height: 100vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-image: url(../img/header-desktop.jpg);
+}
+.logo{
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+}
+.nav-link{
+	font-weight:600;
+	font-family: 'monserrat';
+	font-size: 1.8rem;
+}
+#navbarSupportedContent li a:hover{
+transform: translateY(-1px); 
+color: #FCBA81 !important;
+transition: .2s;
+	
+}
+.bg-color{
+background-color: rgba(0,0,0,0.3);
+}
+
+.text-nav{
+	width: 80%;
+}
+#text-header{
+	width: 100%;
+	height: 80vh;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.text-title{
+	font-weight: bolder;
+	font-family: 'Poppins', sans-serif;
+	font-size: 5.2rem;
+
+}
+.text-descripcion{
+	font-family: 'Roboto', sans-serif;
+	margin: 20px 0px 40px 0px;
+	font-size: 2.4rem;
+
+}
+.btn-animacion{
+	font-size: 1.5rem;
+	padding: 5px 40px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	border-radius: 2px;
+}
+.btn-animacion:hover{
+	border: 1px solid rgba(115,114,114,0.9);
+	
+	background-color:rgba(115,114,114,0.6);
+	transition: 1s;
+}
+.btn h4{
+	font-size: 3rem;
+}
+
+
+ #box-cards .title-productos{
+ 	font-weight: 700;
+ 	font-size: 4.3rem;
+ 	font-family: 'Roboto', sans-serif;
+
+ }
+
+ .img-carousel{
+ 	height: 200px;
+ }
+ .card:hover{
+ 	cursor: pointer;
+ 	transform: translateY(-10px);
+ 	transition: 1s;
+ }
+
+ #productos{
+
+ 	margin-top: 5rem;
+ }
+ .card-title{
+
+ 	font-size: 1.7rem;
+ 	font-weight: 700;
+ }
+ .card-text{
+ 	font-weight:bold;
+ 	font-size: 1.2rem;
+ }
+ .text-btn-a{
+ 	font-size: 1.5rem;
+ }
+.bg-footer{
+	background-color: #1E1B1B;
+}
+
+ .title-footer{
+ 	font-size: 4.5rem;
+ }
+ .subtitulo-footer{
+ 	font-size: 2rem;
+ }
+ .text-descripcion-footer{
+ 	font-size: 1.5rem;
+ 	color:#C9C9C9;
+ }
+ .text-a{
+ 	font-size: 1.5rem;
+ }
+.color-a{
+	color: #848484;
+}
+
+
+ .text-coyright{
+ 	font-size: 1.8rem
+ }
+
+ .title-contacto{
+ 	font-size: 4.5rem;
+ }
+ .subtitulo-contacto{
+ 	font-size: 2.8rem
+ }
+ .title-email{
+ 	font-size: 2rem;
+ }
+ .title-contraseña{
+ 	font-size: 2rem;
+ }
+ .text-Mensaje{
+ 	font-size: 1.5rem;
+ }
+ .text-btn{
+ 	font-size: 1.5rem
+ }
+ .bg-color-nav-contacto{
+ 	background-color:  #000;
+
+ }
+ #card{
+ 	box-shadow: 7px 10px 12px -2px rgba(0,0,0,0.35);
+-webkit-box-shadow: 7px 10px 12px -2px rgba(0,0,0,0.35);
+-moz-box-shadow: 7px 10px 12px -2px rgba(0,0,0,0.35);
+ }
+ #lista li:nth-child(1){
+ 
+ 	background-color: #797676  ;
+ 	border-radius: 10px;
+ 	color: black !important;
+ }
+ #lista li:last-child{
+ 
+ 	background-color:#847D7D;  
+ 	border-radius: 10px;
+ 	
+ }
+ #box-card-nosotros{
+ 	height: 100vh;
+
+ }
+ #iten-box-nosotros{
+
+ 	padding-top: 10rem;
+ }
+ .card-nosotros{
+ 	box-shadow: 7px 10px 12px -2px rgba(0,0,0,0.35);
+-webkit-box-shadow: 7px 10px 12px -2px rgba(0,0,0,0.35);
+-moz-box-shadow: 7px 10px 12px -2px rgba(0,0,0,0.35);
+
+ }
+ .title-nosotros{
+ 	font-size: 6rem;
+ }
+  .card-text{
+  	font-size: 1.5rem;
+  }
